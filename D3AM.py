@@ -1,10 +1,9 @@
 #Day 3 AM - Python: Conditions and Loops
 
 #Exercise 1
-n = 9 
-for i in range(0, n):
-    for j in range(0, i+1):
-        print("1", end=" ")
+for i in range(1, 10):
+    for j in range(i):
+        print(i, end=" ")
     print()
 
 print('\n')
